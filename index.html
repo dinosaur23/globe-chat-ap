@@ -4,13 +4,12 @@
   <meta charset="UTF-8">
   <title>Globe../</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Firebase -->
+  <script type="module" src="script.js" defer></script>
 </head>
 <body>
   <div class="chat-window">
-    <div class="messages" id="messages">
-      <p><strong>Felix says:</strong><br>Hello world</p>
-      <p><strong>Bob says:</strong><br>text everyone</p>
-    </div>
+    <div id="messages" class="messages"></div>
 
     <form id="chat-form">
       <input type="text" id="name" placeholder="Name" required>
@@ -18,7 +17,5 @@
       <button type="submit">send</button>
     </form>
   </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
